@@ -1,13 +1,11 @@
 library(shiny)
 library(shinydashboard)
 library(tidyverse)
-library(shiny)
 library(reactable)
 library(gt)
 library(patchwork)
 library(glue)
 library(here)
-library(htmltools)
 
 df <- read_rds("analisis2.rds")
 df2 <- df %>% pluck("df")
